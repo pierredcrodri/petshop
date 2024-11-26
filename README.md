@@ -1,2 +1,17 @@
 # petshop
-Projeto de canil do módulo Node do curso da B7Web
+
+Projeto de canil do módulo Node + TypeScript do curso da B7Web
+
+### Pré-requisitos globais
+
+`npm i -g nodemon typescript ts-node`
+
+### Instalação
+
+`git clone https://github.com/pierredcrodri/petshop.git`
+`cd petshop`
+`npm i`
+
+### Inicialização
+
+`npm run dev`
