@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "Projeto de canil do módulo Node do curso da B7Web",
   "main": "index.js",
+  "engines": {
+    "node": "23.x"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon -e ts,json,mustache src/server.ts"
+    "start": "node dist/server.js",
+    "postinstall": "tsc && copyfiles -u 1 src/**/*.mustache dist/",
+    "start-dev": "nodemon -e ts,json,mustache src/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +22,7 @@
   "devDependencies": {
     "@types/express": "^5.0.0",
     "@types/mustache-express": "^1.2.5",
-    "@types/node": "^22.9.4"
+    "@types/node": "^22.9.4",
+    "copyfiles": "^2.4.1"
   }
 }
