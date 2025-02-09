@@ -1,6 +1,6 @@
 # petshop
 
-Projeto do site PetShow do módulo Node + TypeScript do curso da B7Web
+Projeto do site PetShop do módulo Node + TypeScript do curso da B7Web
 
 ### Pré-requisitos globais
 
