@@ -1,6 +1,6 @@
 # petshop
 
-Projeto de canil do módulo Node + TypeScript do curso da B7Web
+Projeto do site PetShow do módulo Node + TypeScript do curso da B7Web
 
 ### Pré-requisitos globais
 
@@ -14,4 +14,6 @@ Projeto de canil do módulo Node + TypeScript do curso da B7Web
 
 ### Inicialização
 
-`npm run dev`
+`npm run start-dev`
+ou
+`npm run start`
